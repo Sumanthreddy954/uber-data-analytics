@@ -27,6 +27,6 @@ This project performs a deep analysis of Uber trip data using Google Cloud Platf
 - **Customer Behavior**: Preferred travel times and locations
 
 ### 🗺️ **Architecture**
-[Architecture Diagram](architecture.jpg)
+![Architecture Diagram](architecture.jpg)
 
 
