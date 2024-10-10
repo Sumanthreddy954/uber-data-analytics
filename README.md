@@ -1,35 +1,33 @@
-# Uber Data Analytics | Modern Data Engineering GCP Project
+# 🚖 Uber Data Analytics | GCP & Big Data Solutions 🌐
 
-## Introduction
+### 📊 **Project Overview**
+This project performs a deep analysis of Uber trip data using Google Cloud Platform (GCP) and advanced analytics tools. It uncovers insights into ride patterns, demand trends, and driver performance.
 
-The goal of this project is to perform data analytics on Uber data using various tools and technologies, including GCP Storage, Python, Compute Instance, Mage Data Pipeline Tool, BigQuery, and Looker Studio.
+### 🛠️ **Tech Stack**
+- **Languages**: Python 🐍, SQL
+- **Cloud Services**:
+  - Google Cloud Storage ☁️ for data storage
+  - Compute Engine 🖥️ for processing
+  - BigQuery 📈 for querying large datasets
+  - Looker Studio 👁️ for interactive reporting
 
-## Architecture 
-<img src="architecture.jpg">
+### 📂 **Dataset**
+- **Source**: NYC’s TLC Trip Record Data 🚖  
+- **Content**: Ride details like pickup/drop-off locations, trip durations, and fare amounts.
 
-## Technology Used
-- Programming Language - Python
+### ⚙️ **ETL Pipeline**
+- **Data Ingestion**: Raw data stored in Cloud Storage  
+- **ETL Process**: Managed by Mage for transforming and cleaning data  
+- **BigQuery**: Handles billions of records with advanced SQL queries  
+- **Looker**: Visualizes key trends through user-friendly reports
 
-Google Cloud Platform
-1. Google Storage
-2. Compute Instance 
-3. BigQuery
-4. Looker Studio
+### 📈 **Key Insights**  
+- **Ride Distribution**: Peak hours, location-based demand  
+- **Driver Performance**: Efficiency and fare comparison  
+- **Customer Behavior**: Preferred travel times and locations
 
-Modern Data Pipeine Tool - https://www.mage.ai/
+### 🗺️ **Architecture**
+[Architecture Diagram](architecture.jpg)
 
-Contibute to this open source project - https://github.com/mage-ai/mage-ai
-
-
-## Dataset Used
-TLC Trip Record Data
-Yellow and green taxi trip records include fields capturing pick-up and drop-off dates/times, pick-up and drop-off locations, trip distances, itemized fares, rate types, payment types, and driver-reported passenger counts. 
-
-Here is the dataset used in the video - https://github.com/darshilparmar/uber-etl-pipeline-data-engineering-project/blob/main/data/uber_data.csv
-
-More info about dataset can be found here:
-1. Website - https://www.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-2. Data Dictionary - https://www.nyc.gov/assets/tlc/downloads/pdf/data_dictionary_trip_records_yellow.pdf
-
-## Data Model
-<img src="data_model.jpeg">
+### 💡 **Contributions**
+Contribute by running Mage ETL pipelines, optimizing queries, or enhancing visualizations in Looker.
