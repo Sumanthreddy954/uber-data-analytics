@@ -1,4 +1,4 @@
-# 🚖 Uber Data Analytics | GCP & Big Data Solutions 🌐
+# 🚖 Uber Data Analytics | Modern Data Engineering on GCP 
 
 ### 📊 **Project Overview**
 This project performs a deep analysis of Uber trip data using Google Cloud Platform (GCP) and advanced analytics tools. It uncovers insights into ride patterns, demand trends, and driver performance.
@@ -29,5 +29,4 @@ This project performs a deep analysis of Uber trip data using Google Cloud Platf
 ### 🗺️ **Architecture**
 [Architecture Diagram](architecture.jpg)
 
-### 💡 **Contributions**
-Contribute by running Mage ETL pipelines, optimizing queries, or enhancing visualizations in Looker.
+
